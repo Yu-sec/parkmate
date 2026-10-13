@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="停车助理，安心去逛，车费随时看。自定义停车计费规则、涨价前提醒、车位照片、小组件与 Siri，让每一次停车更从容。">
   <meta name="theme-color" content="#1c5748">
   <meta name="apple-itunes-app" content="app-id=6817664872">
@@ -65,7 +65,8 @@
 
     <section class="screens-section wrap" aria-labelledby="screens-title">
       <div class="section-heading"><p class="eyebrow">从停好，到出发</p><h2 id="screens-title">简单三步，记录一次停车。</h2></div>
-      <div class="screens-grid">
+      <p class="screens-hint" id="screens-hint">左右滑动，查看完整流程 <span aria-hidden="true">↔</span></p>
+      <div class="screens-grid" tabindex="0" role="region" aria-label="应用截图" aria-describedby="screens-hint">
         <figure><img src="assets/parking-home.png" width="1242" height="2688" loading="lazy" alt="选择常用停车场并开始停车的应用界面"><figcaption><span>01</span> 选好停车场，开始记录</figcaption></figure>
         <figure><img src="assets/parking-active.png" width="1242" height="2688" loading="lazy" alt="停车中的费用估算与涨价倒计时界面"><figcaption><span>02</span> 费用与时长，随时查看</figcaption></figure>
         <figure><img src="assets/parking-finish.png" width="1242" height="2688" loading="lazy" alt="结束停车并保存费用记录的应用界面"><figcaption><span>03</span> 结束并保存，一路顺风</figcaption></figure>
