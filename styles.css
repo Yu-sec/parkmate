@@ -24,7 +24,6 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #658e40; outline-off
 .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 700; white-space: nowrap; }
 .brand img { width: 42px; height: 42px; border-radius: 12px; }
 .site-header nav, .site-footer nav { display: flex; align-items: center; gap: 28px; font-size: 14px; }
-.nav-contact { font-weight: 600; }
 .hero { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 45px; align-items: center; padding-block: 68px 84px; }
 .eyebrow { margin: 0 0 20px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; color: var(--green); }
 .status-dot { display: inline-block; width: 7px; height: 7px; margin-right: 8px; border-radius: 50%; background: var(--green); }
@@ -67,11 +66,9 @@ figcaption span { margin-right: 5px; color: var(--muted); font-size: 11px; }
 summary { cursor: pointer; font-weight: 600; font-size: 16px; padding-right: 12px; }
 .faq-list details p { margin: 15px 0 0; color: var(--muted); font-size: 14px; }
 .faq-list details a, .policy a:not(.back-link):not(.policy-toc a) { text-decoration: underline; text-underline-offset: 3px; }
-.contact-section { margin-top: 20px; padding: 42px; border-radius: 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; background: var(--green); color: var(--paper); }
-.contact-section .eyebrow { color: var(--lime); margin-bottom: 14px; }
-.contact-section h2 { margin-bottom: 16px; }
-.contact-section p:not(.eyebrow) { margin-bottom: 0; color: #d7e5d8; font-size: 14px; }
-.contact-link { font-size: 14px; overflow-wrap: anywhere; }
+.download-section { margin-top: 20px; padding: 42px; border-radius: 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; background: var(--green); color: var(--paper); }
+.download-section .eyebrow { color: var(--lime); margin-bottom: 14px; }
+.download-section h2 { margin-bottom: 16px; }
 .light-button { display: inline-flex; align-items: center; gap: 40px; white-space: nowrap; background: var(--lime); color: var(--ink); border-radius: 12px; padding: 14px 21px; font-size: 14px; font-weight: 600; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 32px 38px; color: var(--muted); font-size: 12px; }
 .site-footer nav { gap: 23px; font-size: 12px; }
@@ -108,7 +105,7 @@ summary { cursor: pointer; font-weight: 600; font-size: 16px; padding-right: 12p
   .brand { font-size: 17px; gap: 9px; }
   .brand img { width: 35px; height: 35px; border-radius: 10px; }
   .site-header nav { gap: 16px; font-size: 12px; }
-  .features-link, .nav-contact { display: none; }
+  .features-link { display: none; }
   .hero { grid-template-columns: 1fr; padding-block: 48px 52px; gap: 43px; }
   .hero h1 { font-size: 44px; }
   .hero-description { font-size: 16px; }
@@ -124,8 +121,8 @@ summary { cursor: pointer; font-weight: 600; font-size: 16px; padding-right: 12p
   figcaption { font-size: 14px; margin-top: 12px; }
   .faq-section { grid-template-columns: 1fr; gap: 5px; }
   .faq-section .section-heading { margin-bottom: 20px; }
-  .contact-section { padding: 29px 25px; flex-direction: column; align-items: flex-start; gap: 25px; border-radius: 20px; }
-  .contact-section h2 { font-size: 29px; }
+  .download-section { padding: 29px 25px; flex-direction: column; align-items: flex-start; gap: 25px; border-radius: 20px; }
+  .download-section h2 { font-size: 29px; }
   .site-footer { align-items: flex-start; flex-direction: column; gap: 12px; padding-block: 26px; }
   .site-footer nav { gap: 22px; }
   .policy { padding-top: 29px; }
